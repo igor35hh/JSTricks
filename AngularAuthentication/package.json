@@ -1,0 +1,16 @@
+{
+	"name": "AngularAuthentication",
+	"version": "0.0.0",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express":"3.4.4",
+		"jade": "*",
+		"stylus": "*",
+		"jwt-simple": "~0.2.0",
+		"underscore": "~1.6.0"
+	}
+
+}
