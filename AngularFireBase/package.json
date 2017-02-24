@@ -1,0 +1,16 @@
+{
+	"name": "AngularFireBase",
+	"version": "0.0.0",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"util":"latest",
+		"http": "latest",
+		"fs": "latest",
+		"url": "latest",
+		"events": "latest"
+	}
+
+}
