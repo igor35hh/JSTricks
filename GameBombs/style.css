@@ -1,0 +1,57 @@
+body {
+	-webkit-user-select: none;
+	background-color: black;
+	overflow: hidden;
+	overflow-y: hidden;
+}
+
+#health {
+	position: absolute;
+	top: 10px;
+	left: 12px;
+	width: 35px;
+	height: 20px;
+	text-align: center;
+	padding-top: 2.5px;
+	background-color: grey;
+	color: white;
+	text-shadow: black 0px 0px 1px;
+	border-radius: 20px 0px 0px 20px;
+}
+
+#score {
+	position: absolute;
+	top: 10px;
+	left: 42px;
+	width: 35px;
+	height: 20px;
+	text-align: center;
+	padding-top: 2.5px;
+	background-color: grey;
+	color: white;
+	text-shadow: black 0px 0px 1px;
+	border-radius: 0px 20px 20px 0px;
+}
+
+.bombs {
+	position: absolute;
+	width: 35px;
+	height: 50px;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 2.5px;
+	background-color: green;
+	color: red;
+	text-shadow: black 0px 0px 1px;
+	border-radius: 0px 0px 20px 20px;
+	font-size: 175%;
+}
+
+#die_message {
+	margin-top: 20%;
+	font-size: 100px;
+	text-shadow: white 1px 1px 3px;
+	background-color: black;
+	border-radius: 20px;
+	border: 4px double white;
+}
