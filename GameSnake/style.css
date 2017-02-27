@@ -1,0 +1,19 @@
+body {
+	background-color: #8d7654;
+}
+
+#pHead {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: brown;
+	border-radius: 12.5px;
+}
+
+.pBody {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: brown;
+	border-radius: 12.5px;
+}
