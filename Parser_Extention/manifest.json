@@ -1,0 +1,31 @@
+{
+	"name": "Parser",
+	"manifest_version": 2,
+	"version": "1.0",
+	"description": "Parser",
+
+	"browser_action": {
+		"default_icon": "css/images/Spider-16.png",
+		"default_popup": "popup.html"
+	},
+
+	"permissions": [
+		"<all_urls>",
+		"unlimitedStorage",
+		"activeTab"
+	],
+
+	"content_scripts": [
+		{
+			"matches":["http://hotline.ua/*","http://rozetka.com.ua/*"],
+			"js":["/js/jquery-3.1.1.min.js", "/js/main.js"],
+			"run_at": "document_idle"
+		}
+	],
+
+	"icons": {
+		"16": "css/images/Spider-16.png",
+		"48": "css/images/Spider-48.png",
+		"128": "css/images/Spider-128.png"
+	}
+}
