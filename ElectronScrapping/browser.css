@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Lucida Grande, Arial, sans-serif;
+}
+
+#controls {
+	padding: 3px;
+	border-bottom: solid 1px #ccc;
+	background-color: #eee;
+}
+
+#contrlos button, #controls input {
+	font-size: 14px;
+	line-height: 24px;
+	border-radius: 2px;
+	padding: 0 6px;
+}
+
+#controls {
+	display: -webkit-flex;
+	-webit-flex-direction: column;
+}
+
+#controls #location-form {
+	-webkit-flex: 1;
+	display: -webkit-flex;
+	-webit-flex-direction: column;
+}
+
+button, input[type="submit"], button[disabled]:hover {
+	border: solid 1px transparent;
+	background: transparent;
+}
+
+button:hover, input[type="submit"]:hover {
+	border-color: #ccc;
+	background: -webkit-linear-gradient(bottom, #cccccc 0%, #f2f2f2 99%);
+}
+
+button: active, input[type="submit"]:active {
+	border-color: #bbb;
+	background: -webkit-linear-gradient(bottom, #e2e2e2 0%, #bbbbbb 99%);
+}
+
+#location {
+	border: solid 1px #ccc;
+	padding: 2px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+}
+
+#sad-webview, webview {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+
